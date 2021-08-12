@@ -31,7 +31,7 @@
     self.tcpConnection.delegate = self;
     
     [self.receiveTextView setTextColor:NSColor.textColor];
-    
+//    [self.receiveTextView setTypingAttributes:<#(NSDictionary<NSAttributedStringKey,id> * _Nonnull)#>]
     [self performSelector:@selector(initializeGUI) withObject:nil afterDelay:1];
   }
   return self;
@@ -77,6 +77,8 @@
       
     [[self.receiveTextView textStorage] appendAttributedString:attr];
     [self.receiveTextView setTextColor:NSColor.textColor];
+//      [self.receiveTextView setFont:[NSFont fontWithName:@"Monaco" size:12]];
+      [self.receiveTextView setFont:[NSFont fontWithName:@"Menlo" size:12]];
       if ( [self.autoScroll state] == NSOnState ) {
         [self.receiveTextView scrollRangeToVisible:NSMakeRange([[self.receiveTextView string] length], 0)];
       }
