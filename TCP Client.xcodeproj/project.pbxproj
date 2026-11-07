@@ -11,11 +11,12 @@
 		B2B1570B1B727B18001750AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B1570A1B727B18001750AC /* main.m */; };
 		B2B1570D1B727B18001750AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B1570C1B727B18001750AC /* Assets.xcassets */; };
 		B2B157101B727B18001750AC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2B1570E1B727B18001750AC /* MainMenu.xib */; };
-		B2B157191B727B29001750AC /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B157181B727B29001750AC /* NetworkController.m */; };
 		B2B1571D1B727B43001750AC /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B1571C1B727B43001750AC /* AppController.m */; };
-		B2D59AD02422312B00C30182 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D59ACF2422312B00C30182 /* WindowController.m */; };
-		B2D59AD52422381A00C30182 /* myWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2D59AD42422381A00C30182 /* myWindow.xib */; };
 		B2E6175C1EDFFA79009C0E07 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E6175B1EDFFA79009C0E07 /* GCDAsyncSocket.m */; };
+		DFB400B44641DCDAF43523F8 /* ClientSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B8A1468238D7B8ECBD246 /* ClientSession.m */; };
+		1F3EF45BB62BC51FFDC11E88 /* ClientListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E053EC1DB5AACE5032D5DBE /* ClientListViewController.m */; };
+		BD8E761DF3E65260BAF91BD2 /* ClientDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E68F2468E5372EEC1213714 /* ClientDetailViewController.m */; };
+		C720F5146CE1598ACCA9A3C7 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD32EF95BA17BE787CDB22BC /* MainWindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,15 +27,18 @@
 		B2B1570C1B727B18001750AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2B1570F1B727B18001750AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B2B157111B727B18001750AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2B157171B727B29001750AC /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
-		B2B157181B727B29001750AC /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
 		B2B1571B1B727B43001750AC /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		B2B1571C1B727B43001750AC /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
-		B2D59ACE2422312B00C30182 /* WindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
-		B2D59ACF2422312B00C30182 /* WindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
-		B2D59AD42422381A00C30182 /* myWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myWindow.xib; sourceTree = "<group>"; };
 		B2E6175A1EDFFA79009C0E07 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		B2E6175B1EDFFA79009C0E07 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		4CB797338A1A2E1E885F92E0 /* ClientSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientSession.h; sourceTree = "<group>"; };
+		5E1B8A1468238D7B8ECBD246 /* ClientSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientSession.m; sourceTree = "<group>"; };
+		4ED4E851B2BD3F243670AE9F /* ClientListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientListViewController.h; sourceTree = "<group>"; };
+		9E053EC1DB5AACE5032D5DBE /* ClientListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientListViewController.m; sourceTree = "<group>"; };
+		D8BE51C81CE3D92E4B98A718 /* ClientDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientDetailViewController.h; sourceTree = "<group>"; };
+		0E68F2468E5372EEC1213714 /* ClientDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientDetailViewController.m; sourceTree = "<group>"; };
+		E8D3D4065D1966A3F4BB3EBE /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		AD32EF95BA17BE787CDB22BC /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +75,16 @@
 				B2B157071B727B18001750AC /* AppDelegate.m */,
 				B2B1571B1B727B43001750AC /* AppController.h */,
 				B2B1571C1B727B43001750AC /* AppController.m */,
-				B2D59ACE2422312B00C30182 /* WindowController.h */,
-				B2D59ACF2422312B00C30182 /* WindowController.m */,
+				4CB797338A1A2E1E885F92E0 /* ClientSession.h */,
+				5E1B8A1468238D7B8ECBD246 /* ClientSession.m */,
+				4ED4E851B2BD3F243670AE9F /* ClientListViewController.h */,
+				9E053EC1DB5AACE5032D5DBE /* ClientListViewController.m */,
+				D8BE51C81CE3D92E4B98A718 /* ClientDetailViewController.h */,
+				0E68F2468E5372EEC1213714 /* ClientDetailViewController.m */,
+				E8D3D4065D1966A3F4BB3EBE /* MainWindowController.h */,
+				AD32EF95BA17BE787CDB22BC /* MainWindowController.m */,
 				B2B1571A1B727B2C001750AC /* TCPConnectionHandler */,
 				B2B1570C1B727B18001750AC /* Assets.xcassets */,
-				B2D59AD42422381A00C30182 /* myWindow.xib */,
 				B2B1570E1B727B18001750AC /* MainMenu.xib */,
 				B2B157111B727B18001750AC /* Info.plist */,
 				B2B157091B727B18001750AC /* Supporting Files */,
@@ -94,8 +103,6 @@
 		B2B1571A1B727B2C001750AC /* TCPConnectionHandler */ = {
 			isa = PBXGroup;
 			children = (
-				B2B157171B727B29001750AC /* NetworkController.h */,
-				B2B157181B727B29001750AC /* NetworkController.m */,
 				B2E6175A1EDFFA79009C0E07 /* GCDAsyncSocket.h */,
 				B2E6175B1EDFFA79009C0E07 /* GCDAsyncSocket.m */,
 			);
@@ -162,7 +169,6 @@
 			files = (
 				B2B1570D1B727B18001750AC /* Assets.xcassets in Resources */,
 				B2B157101B727B18001750AC /* MainMenu.xib in Resources */,
-				B2D59AD52422381A00C30182 /* myWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,11 +180,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2B1570B1B727B18001750AC /* main.m in Sources */,
-				B2D59AD02422312B00C30182 /* WindowController.m in Sources */,
 				B2E6175C1EDFFA79009C0E07 /* GCDAsyncSocket.m in Sources */,
-				B2B157191B727B29001750AC /* NetworkController.m in Sources */,
 				B2B157081B727B18001750AC /* AppDelegate.m in Sources */,
 				B2B1571D1B727B43001750AC /* AppController.m in Sources */,
+				DFB400B44641DCDAF43523F8 /* ClientSession.m in Sources */,
+				1F3EF45BB62BC51FFDC11E88 /* ClientListViewController.m in Sources */,
+				BD8E761DF3E65260BAF91BD2 /* ClientDetailViewController.m in Sources */,
+				C720F5146CE1598ACCA9A3C7 /* MainWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +240,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				ARCHS = arm64;
+				EXCLUDED_ARCHS = x86_64;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -269,7 +279,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				ARCHS = arm64;
+				EXCLUDED_ARCHS = x86_64;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};

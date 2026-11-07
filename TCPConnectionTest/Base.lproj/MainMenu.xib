@@ -63,7 +63,7 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="File" id="bib-Uj-vzu">
                         <items>
-                            <menuItem title="New" keyEquivalent="n" id="Was-JA-tGl">
+                            <menuItem title="New Client" keyEquivalent="n" id="Was-JA-tGl">
                                 <connections>
                                     <action selector="launchWindow:" target="Voe-Tx-rLC" id="Kco-3W-aea"/>
                                 </connections>
@@ -627,7 +627,7 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Window" systemMenu="window" id="Td7-aD-5lo">
                         <items>
-                            <menuItem title="New" keyEquivalent="n" id="OY7-WF-poV">
+                            <menuItem title="New Client" keyEquivalent="n" id="OY7-WF-poV">
                                 <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                 <connections>
                                     <action selector="launchWindow:" target="Voe-Tx-rLC" id="3E3-sd-aQG"/>

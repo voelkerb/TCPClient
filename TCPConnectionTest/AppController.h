@@ -1,21 +1,23 @@
 //
 //  AppController.h
-//  TCPConnectionTest
+//  TCPClient
 //
-//  Created by Benjamin Völker on 05/08/15.
+//  Created by Benjamin Völker on 06/08/15.
 //  Copyright © 2015 Benjamin Völker. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <Cocoa/Cocoa.h>
-#import "WindowController.h"
+#import "MainWindowController.h"
 
-@interface AppController : NSObject {
-}
+@interface AppController : NSObject
 
-@property(nonatomic, strong) NSMutableArray *sessionWindowControllers;
-@property(nonatomic, strong) WindowController *currentWindowController;
+@property(nonatomic, strong) MainWindowController *mainWindowController;
 
+// Shows the main window, creating it on first use.
+- (void)showMainWindow;
+// Adds a new server to the main window and shows it.
 - (IBAction)makeNewWindow:(id)sender;
-@end
+- (void)disconnectAll;
 
+@end

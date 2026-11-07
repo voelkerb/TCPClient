@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  TCPConnectionTest
 //
-//  Created by Benjamin Völker on 05/08/15.
+//  Created by Benjamin Völker on 06/08/15.
 //  Copyright © 2015 Benjamin Völker. All rights reserved.
 //
 
@@ -10,29 +10,37 @@
 
 @interface AppDelegate ()
 
-//@property (weak) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSWindow *window;
 @end
-
 
 @implementation AppDelegate
 
-@synthesize appController;
-
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-  // Insert code here to initialize your application
+  [self.appController showMainWindow];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
-  // Insert code here to tear down your application
+  [self.appController disconnectAll];
+}
+
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
+  return YES;
+}
+
+- (BOOL)applicationSupportsSecureRestorableState:(NSApplication *)app {
+  return YES;
+}
+
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)sender hasVisibleWindows:(BOOL)flag {
+  if (!flag) [self.appController showMainWindow];
+  return YES;
 }
 
 - (void) awakeFromNib {
   self.appController = [[AppController alloc] init];
 }
 
-
 - (void) launchWindow:(id)sender{
-  NSLog(@"Launch window");
   [self.appController makeNewWindow:self];
 }
 
