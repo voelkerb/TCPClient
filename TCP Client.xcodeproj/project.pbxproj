@@ -3,46 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		B2B157081B727B18001750AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B157071B727B18001750AC /* AppDelegate.m */; };
-		B2B1570B1B727B18001750AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B1570A1B727B18001750AC /* main.m */; };
-		B2B1570D1B727B18001750AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B1570C1B727B18001750AC /* Assets.xcassets */; };
-		B2B157101B727B18001750AC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2B1570E1B727B18001750AC /* MainMenu.xib */; };
-		B2B1571D1B727B43001750AC /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B1571C1B727B43001750AC /* AppController.m */; };
-		B2E6175C1EDFFA79009C0E07 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E6175B1EDFFA79009C0E07 /* GCDAsyncSocket.m */; };
-		DFB400B44641DCDAF43523F8 /* ClientSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B8A1468238D7B8ECBD246 /* ClientSession.m */; };
-		1F3EF45BB62BC51FFDC11E88 /* ClientListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E053EC1DB5AACE5032D5DBE /* ClientListViewController.m */; };
-		BD8E761DF3E65260BAF91BD2 /* ClientDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E68F2468E5372EEC1213714 /* ClientDetailViewController.m */; };
-		C720F5146CE1598ACCA9A3C7 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD32EF95BA17BE787CDB22BC /* MainWindowController.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		B2B157031B727B18001750AC /* TCP Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCP Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2B157061B727B18001750AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B2B157071B727B18001750AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B2B1570A1B727B18001750AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B2B1570C1B727B18001750AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B2B1570F1B727B18001750AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		B2B157111B727B18001750AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2B1571B1B727B43001750AC /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
-		B2B1571C1B727B43001750AC /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
-		B2E6175A1EDFFA79009C0E07 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		B2E6175B1EDFFA79009C0E07 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
-		4CB797338A1A2E1E885F92E0 /* ClientSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientSession.h; sourceTree = "<group>"; };
-		5E1B8A1468238D7B8ECBD246 /* ClientSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientSession.m; sourceTree = "<group>"; };
-		4ED4E851B2BD3F243670AE9F /* ClientListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientListViewController.h; sourceTree = "<group>"; };
-		9E053EC1DB5AACE5032D5DBE /* ClientListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientListViewController.m; sourceTree = "<group>"; };
-		D8BE51C81CE3D92E4B98A718 /* ClientDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientDetailViewController.h; sourceTree = "<group>"; };
-		0E68F2468E5372EEC1213714 /* ClientDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientDetailViewController.m; sourceTree = "<group>"; };
-		E8D3D4065D1966A3F4BB3EBE /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
-		AD32EF95BA17BE787CDB22BC /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		B20000000000000000000001 /* Initiator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Initiator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B20000000000000000000002 /* TCPConnectionTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TCPConnectionTest;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		B2B157001B727B18001750AC /* Frameworks */ = {
+		B20000000000000000000003 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,287 +29,238 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B2B156FA1B727B18001750AC = {
+		B20000000000000000000004 = {
 			isa = PBXGroup;
 			children = (
-				B2B157051B727B18001750AC /* TCPConnectionTest */,
-				B2B157041B727B18001750AC /* Products */,
+				B20000000000000000000002 /* TCPConnectionTest */,
+				B20000000000000000000005 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B2B157041B727B18001750AC /* Products */ = {
+		B20000000000000000000005 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2B157031B727B18001750AC /* TCP Client.app */,
+				B20000000000000000000001 /* Initiator.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B2B157051B727B18001750AC /* TCPConnectionTest */ = {
-			isa = PBXGroup;
-			children = (
-				B2B157061B727B18001750AC /* AppDelegate.h */,
-				B2B157071B727B18001750AC /* AppDelegate.m */,
-				B2B1571B1B727B43001750AC /* AppController.h */,
-				B2B1571C1B727B43001750AC /* AppController.m */,
-				4CB797338A1A2E1E885F92E0 /* ClientSession.h */,
-				5E1B8A1468238D7B8ECBD246 /* ClientSession.m */,
-				4ED4E851B2BD3F243670AE9F /* ClientListViewController.h */,
-				9E053EC1DB5AACE5032D5DBE /* ClientListViewController.m */,
-				D8BE51C81CE3D92E4B98A718 /* ClientDetailViewController.h */,
-				0E68F2468E5372EEC1213714 /* ClientDetailViewController.m */,
-				E8D3D4065D1966A3F4BB3EBE /* MainWindowController.h */,
-				AD32EF95BA17BE787CDB22BC /* MainWindowController.m */,
-				B2B1571A1B727B2C001750AC /* TCPConnectionHandler */,
-				B2B1570C1B727B18001750AC /* Assets.xcassets */,
-				B2B1570E1B727B18001750AC /* MainMenu.xib */,
-				B2B157111B727B18001750AC /* Info.plist */,
-				B2B157091B727B18001750AC /* Supporting Files */,
-			);
-			path = TCPConnectionTest;
-			sourceTree = "<group>";
-		};
-		B2B157091B727B18001750AC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B2B1570A1B727B18001750AC /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B2B1571A1B727B2C001750AC /* TCPConnectionHandler */ = {
-			isa = PBXGroup;
-			children = (
-				B2E6175A1EDFFA79009C0E07 /* GCDAsyncSocket.h */,
-				B2E6175B1EDFFA79009C0E07 /* GCDAsyncSocket.m */,
-			);
-			name = TCPConnectionHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B2B157021B727B18001750AC /* TCP Client */ = {
+		B20000000000000000000006 /* TCP Client */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2B157141B727B18001750AC /* Build configuration list for PBXNativeTarget "TCP Client" */;
+			buildConfigurationList = B20000000000000000000010 /* Build configuration list for PBXNativeTarget "TCP Client" */;
 			buildPhases = (
-				B2B156FF1B727B18001750AC /* Sources */,
-				B2B157001B727B18001750AC /* Frameworks */,
-				B2B157011B727B18001750AC /* Resources */,
+				B20000000000000000000007 /* Sources */,
+				B20000000000000000000003 /* Frameworks */,
+				B20000000000000000000008 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				B20000000000000000000002 /* TCPConnectionTest */,
+			);
 			name = "TCP Client";
-			productName = TCPConnectionTest;
-			productReference = B2B157031B727B18001750AC /* TCP Client.app */;
+			packageProductDependencies = (
+			);
+			productName = "TCP Client";
+			productReference = B20000000000000000000001 /* Initiator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B2B156FB1B727B18001750AC /* Project object */ = {
+		B20000000000000000000009 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Benjamin Völker";
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
 				TargetAttributes = {
-					B2B157021B727B18001750AC = {
-						CreatedOnToolsVersion = 7.0;
+					B20000000000000000000006 = {
+						CreatedOnToolsVersion = 27.0;
 					};
 				};
 			};
-			buildConfigurationList = B2B156FE1B727B18001750AC /* Build configuration list for PBXProject "TCP Client" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = B2000000000000000000000F /* Build configuration list for PBXProject "TCP Client" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
-			mainGroup = B2B156FA1B727B18001750AC;
-			productRefGroup = B2B157041B727B18001750AC /* Products */;
+			mainGroup = B20000000000000000000004;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B20000000000000000000005 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B2B157021B727B18001750AC /* TCP Client */,
+				B20000000000000000000006 /* TCP Client */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B2B157011B727B18001750AC /* Resources */ = {
+		B20000000000000000000008 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2B1570D1B727B18001750AC /* Assets.xcassets in Resources */,
-				B2B157101B727B18001750AC /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B2B156FF1B727B18001750AC /* Sources */ = {
+		B20000000000000000000007 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2B1570B1B727B18001750AC /* main.m in Sources */,
-				B2E6175C1EDFFA79009C0E07 /* GCDAsyncSocket.m in Sources */,
-				B2B157081B727B18001750AC /* AppDelegate.m in Sources */,
-				B2B1571D1B727B43001750AC /* AppController.m in Sources */,
-				DFB400B44641DCDAF43523F8 /* ClientSession.m in Sources */,
-				1F3EF45BB62BC51FFDC11E88 /* ClientListViewController.m in Sources */,
-				BD8E761DF3E65260BAF91BD2 /* ClientDetailViewController.m in Sources */,
-				C720F5146CE1598ACCA9A3C7 /* MainWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		B2B1570E1B727B18001750AC /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2B1570F1B727B18001750AC /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		B2B157121B727B18001750AC /* Debug */ = {
+		B20000000000000000000021 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = auto;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				ARCHS = arm64;
-				EXCLUDED_ARCHS = x86_64;
-				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		B2B157131B727B18001750AC /* Release */ = {
+		B20000000000000000000022 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = auto;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				ARCHS = arm64;
-				EXCLUDED_ARCHS = x86_64;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B2B157151B727B18001750AC /* Debug */ = {
+		B20000000000000000000013 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TCPConnectionTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X29CMB76NU;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Initiator";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2015 Benjamin Völker. All rights reserved.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Initiator connects to servers on your local network.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = voelkerb.TCPConnectionTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Initiator";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B2B157161B727B18001750AC /* Release */ = {
+		B20000000000000000000014 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TCPConnectionTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X29CMB76NU;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Initiator";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2015 Benjamin Völker. All rights reserved.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Initiator connects to servers on your local network.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = voelkerb.TCPConnectionTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Initiator";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B2B156FE1B727B18001750AC /* Build configuration list for PBXProject "TCP Client" */ = {
+		B2000000000000000000000F /* Build configuration list for PBXProject "TCP Client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2B157121B727B18001750AC /* Debug */,
-				B2B157131B727B18001750AC /* Release */,
+				B20000000000000000000021 /* Debug */,
+				B20000000000000000000022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2B157141B727B18001750AC /* Build configuration list for PBXNativeTarget "TCP Client" */ = {
+		B20000000000000000000010 /* Build configuration list for PBXNativeTarget "TCP Client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2B157151B727B18001750AC /* Debug */,
-				B2B157161B727B18001750AC /* Release */,
+				B20000000000000000000013 /* Debug */,
+				B20000000000000000000014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B2B156FB1B727B18001750AC /* Project object */;
+	rootObject = B20000000000000000000009 /* Project object */;
 }
